@@ -1,5 +1,8 @@
 <script lang="ts">
-	import { Button } from '$lib/components/ui/button/index.js';
+	import Triangles from "$lib/components/Triangles.svelte";
 </script>
 
-<Button>Click me</Button>
+<Triangles />
+<section class="grid place-items-center flex-grow">
+	<h1 class="text-6xl font-bold">Welcome to Kissed Toge</h1>
+</section>
